@@ -3,7 +3,7 @@
 import React, { JSX, useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import type { Variants } from "framer-motion";
-import { Sun, Moon, Menu, X, Calendar, Users, Trophy, Code2, Zap, Sparkles, ClipboardCheck, ArrowRight } from "lucide-react";
+import { Sun, Moon, Menu, X, Calendar, Users, Trophy, Code2, Zap} from "lucide-react";
 
 type NavLink = {
   id: string;
@@ -226,7 +226,7 @@ export default function Home(): JSX.Element {
           </motion.div>
           <motion.div variants={itemVariants} className="mt-6 text-gray-100 max-w-2xl mx-auto">
             <p className="text-lg md:text-xl flex justify-center">
-              We're a small, Fox Chapel Area club that treats code like craft.
+              We&apos;re a small, Fox Chapel Area club that treats code like craft.
             </p>
           </motion.div>
           <motion.div variants={itemVariants} className="mt-6 text-gray-100 max-w-2xl mx-auto">
@@ -314,7 +314,7 @@ export default function Home(): JSX.Element {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              We're small, but we're ambitious. And now we're ready to bring that same energy to our first hackathon.
+              We&apos;re small, but we&apos;re ambitious. And now we&apos;re ready to bring that same energy to our first hackathon.
             </motion.p>
           </motion.div>
           
@@ -419,7 +419,7 @@ export default function Home(): JSX.Element {
               >
                 <h5 className="text-lg font-bold text-white mb-3">Hosted by FC Hacks</h5>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  We're a small coding club from Fox Chapel High School. This is our first hackathon, and it happens if enough people show interest. No prizes or fancy sponsors yet — just students building projects together online.
+                  We&apos;re a small coding club from Fox Chapel High School. This is our first hackathon, and it happens if enough people show interest. No prizes or fancy sponsors yet — just students building projects together online.
                 </p>
               </motion.div>
             </div>
@@ -445,7 +445,7 @@ export default function Home(): JSX.Element {
                   Show Interest
                 </h4>
                 <p className="text-gray-300 leading-relaxed">
-                  Fill out the form so we know you're interested. If we get enough responses, we'll make it happen and reach out with details.
+                  Fill out the form so we know you&apos;re interested. If we get enough responses, we&apos;ll make it happen and reach out with details.
                 </p>
               </div>
 
@@ -463,7 +463,7 @@ export default function Home(): JSX.Element {
                   whileHover={{ x: 0 }}
                   transition={{ duration: 0.4 }}
                 />
-                <span className="relative z-10">I'm Interested</span>
+                <span className="relative z-10">I&apos;m Interested</span>
                 <motion.span
                   className="relative z-10"
                   animate={{ x: [0, 5, 0] }}
@@ -579,7 +579,7 @@ export default function Home(): JSX.Element {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed mb-10"
           >
-            Whether you want to participate in the hackathon or join our club, we'd love to have you. We're a small group building something meaningful.
+            Whether you want to participate in the hackathon or join our club, we&apos;d love to have you. We&apos;re a small group building something meaningful.
           </motion.p>
           <motion.a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdJ8qUgqsHDBEELzE5xT6zU8-g2xYbQiiUIYlD3JOQfC30e4w/viewform?usp=dialog"
