@@ -495,14 +495,14 @@ export default function Home(): JSX.Element {
                         <span className="text-emerald-400">const</span>
                         <span className="text-gray-300"> date</span>
                         <span className="text-gray-400"> = </span>
-                        <span className="text-cyan-300">"March 7, 2026"</span>
+                        <span className="text-cyan-300">&quot;March 7, 2026&quot;</span>
                         <span className="text-gray-400">;</span>
                       </div>
                       <div className="ml-6">
                         <span className="text-emerald-400">const</span>
                         <span className="text-gray-300"> theme</span>
                         <span className="text-gray-400"> = </span>
-                        <span className="text-cyan-300">"Building Together"</span>
+                        <span className="text-cyan-300">&quot;Building Together&quot;</span>
                         <span className="text-gray-400">;</span>
                       </div>
                       <div className="ml-6">
